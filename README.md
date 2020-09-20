@@ -1,13 +1,8 @@
 # Parallel WaveGAN (+ MelGAN & Multi-band MelGAN) implementation with Pytorch
 
 # 한국어 수정중입니다.
-
-![](https://user-images.githubusercontent.com/22779813/68081503-4b8fcf00-fe52-11e9-8791-e02851220355.png)
-
 > Source of the figure: https://arxiv.org/pdf/1910.11480.pdf
-
-The goal of this repository is to provide real-time neural vocoder, which is compatible with [ESPnet-TTS](https://github.com/espnet/espnet).  
-Also, this repository can be combined with [NVIDIA/tacotron2](https://github.com/NVIDIA/tacotron2)-based implementation (See [this comment](https://github.com/kan-bayashi/ParallelWaveGAN/issues/169#issuecomment-649320778)).
+![](https://user-images.githubusercontent.com/22779813/68081503-4b8fcf00-fe52-11e9-8791-e02851220355.png)
 
 ## Requirements
 
