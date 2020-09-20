@@ -1,6 +1,6 @@
 # Parallel WaveGAN (+ MelGAN & Multi-band MelGAN) implementation with Pytorch
 
-![](https://github.com/kan-bayashi/ParallelWaveGAN/workflows/CI/badge.svg) [![](https://img.shields.io/pypi/v/parallel-wavegan)](https://pypi.org/project/parallel-wavegan/) ![](https://img.shields.io/pypi/pyversions/parallel-wavegan) ![](https://img.shields.io/pypi/l/parallel-wavegan) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/espnet/notebook/blob/master/espnet2_tts_realtime_demo.ipynb)
+# 한국어 수정중입니다.
 
 This repository provides **UNOFFICIAL** [PWG](https://arxiv.org/abs/1910.11480), [MelGAN](https://arxiv.org/abs/1910.06711), and [MB-MelGAN](https://arxiv.org/abs/2005.05106) implementations with Pytorch.  
 You can combine these state-of-the-art non-autoregressive models to build your own great vocoder!
@@ -13,27 +13,6 @@ Please check our samples in [our demo HP](https://kan-bayashi.github.io/Parallel
 
 The goal of this repository is to provide real-time neural vocoder, which is compatible with [ESPnet-TTS](https://github.com/espnet/espnet).  
 Also, this repository can be combined with [NVIDIA/tacotron2](https://github.com/NVIDIA/tacotron2)-based implementation (See [this comment](https://github.com/kan-bayashi/ParallelWaveGAN/issues/169#issuecomment-649320778)).
-
-You can try the real-time end-to-end text-to-speech demonstration in Google Colab!
-- Real-time demonstration with ESPnet2  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/espnet/notebook/blob/master/espnet2_tts_realtime_demo.ipynb)
-- Real-time demonstration with ESPnet1  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/espnet/notebook/blob/master/tts_realtime_demo.ipynb)
-
-## What's new
-
-- 2020/08/19 **(New!)** [Real-time demo with ESPnet2](https://colab.research.google.com/github/espnet/notebook/blob/master/espnet2_tts_realtime_demo.ipynb) is available!
-- 2020/05/29 [VCTK, JSUT, and CSMSC multi-band MelGAN pretrained model](#Results) is available!
-- 2020/05/27 [New LJSpeech multi-band MelGAN pretrained model](#Results) is available!
-- 2020/05/24 [LJSpeech full-band MelGAN pretrained model](#Results) is available!
-- 2020/05/22 [LJSpeech multi-band MelGAN pretrained model](#Results) is available!
-- 2020/05/16 [Multi-band MelGAN](https://arxiv.org/abs/2005.05106) is available!
-- 2020/03/25 [LibriTTS pretrained models](#Results) are available!
-- 2020/03/17 [Tensorflow conversion example notebook](https://github.com/kan-bayashi/ParallelWaveGAN/blob/master/notebooks/convert_melgan_from_pytorch_to_tensorflow.ipynb) is available (Thanks, [@dathudeptrai](https://github.com/dathudeptrai))!
-- 2020/03/16 [LibriTTS recipe](https://github.com/kan-bayashi/ParallelWaveGAN/blob/master/egs/libritts/voc1) is available!
-- 2020/03/12 [PWG G + MelGAN D + STFT-loss samples](#Results) are available!
-- 2020/03/12 Multi-speaker English recipe [egs/vctk/voc1](https://github.com/kan-bayashi/ParallelWaveGAN/blob/master/egs/vctk/voc1) is available!
-- 2020/02/22 [MelGAN G + MelGAN D + STFT-loss samples](#Results) are available!
-- 2020/02/12 Support [MelGAN](https://arxiv.org/abs/1910.06711)'s discriminator!
-- 2020/02/08 Support [MelGAN](https://arxiv.org/abs/1910.06711)'s generator!
 
 ## Requirements
 
