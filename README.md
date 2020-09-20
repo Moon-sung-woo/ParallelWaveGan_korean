@@ -2,11 +2,6 @@
 
 # 한국어 수정중입니다.
 
-This repository provides **UNOFFICIAL** [PWG](https://arxiv.org/abs/1910.11480), [MelGAN](https://arxiv.org/abs/1910.06711), and [MB-MelGAN](https://arxiv.org/abs/2005.05106) implementations with Pytorch.  
-You can combine these state-of-the-art non-autoregressive models to build your own great vocoder!
-
-Please check our samples in [our demo HP](https://kan-bayashi.github.io/ParallelWaveGAN).
-
 ![](https://user-images.githubusercontent.com/22779813/68081503-4b8fcf00-fe52-11e9-8791-e02851220355.png)
 
 > Source of the figure: https://arxiv.org/pdf/1910.11480.pdf
