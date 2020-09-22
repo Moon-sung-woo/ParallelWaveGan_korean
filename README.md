@@ -34,6 +34,8 @@ $ pip install -e .
 # If you want to use distributed training, please install
 # apex manually by following https://github.com/NVIDIA/apex
 $ ...
+# If you use docker and has error like AttributeError: module 'enum' has no attribute 'IntFlag'
+$ pip3 uninstall -y enum34
 ```
 Note that your cuda version must be exactly matched with the version used for the pytorch binary to install apex.  
 To install pytorch compiled with different cuda version, see `tools/Makefile`.
