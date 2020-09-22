@@ -31,7 +31,7 @@ checkpoint="" # checkpoint path to be used for decoding
               # (e.g. <path>/<to>/checkpoint-400000steps.pkl)
 
 # shellcheck disable=SC1091
-. utils/parse_options.sh || exit 1;
+. ../../../utils/parse_options.sh || exit 1;
 
 train_set="train_nodev" # name of training data directory
 dev_set="dev"           # name of development data direcotry
