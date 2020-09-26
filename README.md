@@ -8,7 +8,7 @@
 
 ## Requirements
 
-This repository is tested on Ubuntu 16.04 with a GPU Titan V.
+This repository is tested on Ubuntu 18.04 with a GPU Titan V.
 
 - Python 3.6+
 - Cuda 10.0
@@ -53,6 +53,27 @@ $ make
 $ make apex
 ```
 
+### C. Make file
+
+```bash
+# You should make files like this
+
+ParallelWaveGAN
+ㄴ egs
+  ㄴ kss
+    ㄴ voc1
+      ㄴ downloads
+        ㄴ kss
+          ㄴ wavs
+            ㄴ1_0000.wav
+            ㄴ1_0001.wav
+              .
+              .
+              .
+# Create a wavs folder and push the wav file of kss divided into folders 1,2,3,4 at once.
+# wavs 폴더를 만들고 1,2,3,4의 폴더로 나뉘어져 있는 kss의 wav파일을 한번에 몰아 넣습니다.
+```
+
 Note that we specify cuda version used to compile pytorch wheel.  
 If you want to use different cuda version, please check `tools/Makefile` to change the pytorch wheel to be installed.
 
@@ -68,16 +89,10 @@ To run the recipe, please follow the below instruction.
 
 ```bash
 # Let us move on the recipe directory
-$ cd egs/ljspeech/voc1
-
-# Run the recipe from scratch
-$ ./run.sh
-
-# You can change config via command line
-$ ./run.sh --conf <your_customized_yaml_config>
+$ cd egs/ljspeech/kss
 
 # You can select the stage to start and stop
-$ ./run.sh --stage 2 --stop_stage 2
+$ ./run.sh --stage 0 --stop_stage 3
 
 # If you want to specify the gpu
 $ CUDA_VISIBLE_DEVICES=1 ./run.sh --stage 2
