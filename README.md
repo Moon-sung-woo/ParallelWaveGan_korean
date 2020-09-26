@@ -1,6 +1,8 @@
 # Parallel WaveGAN (+ MelGAN & Multi-band MelGAN) implementation with Pytorch
 
-# 한국어 수정중입니다.
+# 한국어 보코더를 만들기 위해 KSS data를 이용했습니다.
+- [parallel waveGan](https://github.com/kan-bayashi/ParallelWaveGAN)을 수정해 만들었습니다.
+
 > Source of the figure: https://arxiv.org/pdf/1910.11480.pdf
 ![](https://user-images.githubusercontent.com/22779813/68081503-4b8fcf00-fe52-11e9-8791-e02851220355.png)
 
@@ -60,6 +62,7 @@ This repository provides [Kaldi](https://github.com/kaldi-asr/kaldi)-style recip
 Currently, the following recipes are supported.
 
 - [LJSpeech](https://keithito.com/LJ-Speech-Dataset/): English female speaker
+- [kss](https://www.kaggle.com/bryanpark/korean-single-speaker-speech-dataset/data): korean female speaker
 
 To run the recipe, please follow the below instruction.
 
