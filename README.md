@@ -89,7 +89,7 @@ To run the recipe, please follow the below instruction.
 
 ```bash
 # Let us move on the recipe directory
-$ cd egs/kss
+$ cd egs/kss/voc1
 
 # You can select the stage to start and stop
 $ ./run.sh --stage 0 --stop_stage 3
